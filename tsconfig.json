@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "strict": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "sourceMap": true,
+    "types": ["node"],
+    "paths": {
+      "@_config/*": ["./src/env/*", "./config/*"],
+      "@_pw-config": ["./playwright.config.ts"],
+      "@_src/*": ["./src/*"]
+    }
+  }
+}
